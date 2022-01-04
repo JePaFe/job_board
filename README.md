@@ -11,11 +11,11 @@ php -S localhost:8080 -t public
 ## Console
 
 ```
-php bin\console
+php bin/console
 ```
 
 ```
-php bin\console make:controller
+php bin/console make:controller
 ```
 
 ```
@@ -23,13 +23,14 @@ php bin\console make:entity
 ```
 
 ```
-php bin\console doctrine:database:create
+php bin/console doctrine:database:create
 ```
 
 ```
-php bin\console doctrine:schema:create 
+php bin/console doctrine:schema:create 
 ```
 
 ```
-php bin\console doctrine:schema:create --dump-sql
+php bin/console doctrine:schema:create --dump-sql
 ```
+
