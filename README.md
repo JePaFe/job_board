@@ -34,3 +34,8 @@ php bin/console doctrine:schema:create
 php bin/console doctrine:schema:create --dump-sql
 ```
 
+## Form
+
+```
+php bin/console make:form
+```
