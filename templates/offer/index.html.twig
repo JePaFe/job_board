@@ -4,6 +4,10 @@
 
 {% block body %}
 
+    {% for m in app.flashes('success') %}
+        <p>{{ m }}</p>
+    {% endfor %}
+
     <table>
         <thead>
         <tr>

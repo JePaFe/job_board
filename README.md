@@ -19,7 +19,7 @@ php bin/console make:controller
 ```
 
 ```
-php bin\console make:entity
+php bin/console make:entity
 ```
 
 ```
@@ -38,4 +38,8 @@ php bin/console doctrine:schema:create --dump-sql
 
 ```
 php bin/console make:form
+```
+
+```
+php bin\console make:validator
 ```
